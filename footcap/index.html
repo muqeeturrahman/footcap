@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footcap - Find your footwear</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="#" class="navbar-link">Home</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link">Products</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link">Shop</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="nav-action-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+          <button class="nav-action-btn">
+            <ion-icon name="cart-outline"></ion-icon>
+            <span class="cart-count">0</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section hero" style="background-image: url('./assets/images/hero-banner.png')">
+      <div class="container">
+        <h2 class="h1 hero-title">New Summer <strong>Shoes Collection</strong></h2>
+        <p class="hero-text">Discover the latest trends in footwear</p>
+        <button class="btn btn-primary">
+          <span>Shop Now</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </section>
+
+    <section class="section product">
+      <div class="container">
+        <h2 class="h2 section-title">Featured Products</h2>
+        <ul class="product-list">
+          <li class="product-item">
+            <div class="product-card">
+              <figure class="card-banner">
+                <img src="./assets/images/product-1.jpg" alt="Nike Air Max" width="312" height="350">
+                <div class="card-actions">
+                  <button class="card-action-btn" aria-label="Add to Wishlist">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                  <button class="card-action-btn" aria-label="Add to Cart">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </button>
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Nike Air Max</h3>
+                <data class="card-price" value="129.99">$129.99</data>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card">
+              <figure class="card-banner">
+                <img src="./assets/images/product-2.jpg" alt="Adidas Ultraboost" width="312" height="350">
+                <div class="card-actions">
+                  <button class="card-action-btn" aria-label="Add to Wishlist">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                  <button class="card-action-btn" aria-label="Add to Cart">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </button>
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Adidas Ultraboost</h3>
+                <data class="card-price" value="159.99">$159.99</data>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card">
+              <figure class="card-banner">
+                <img src="./assets/images/product-3.jpg" alt="Puma RS-X" width="312" height="350">
+                <div class="card-actions">
+                  <button class="card-action-btn" aria-label="Add to Wishlist">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                  <button class="card-action-btn" aria-label="Add to Cart">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </button>
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Puma RS-X</h3>
+                <data class="card-price" value="89.99">$89.99</data>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card">
+              <figure class="card-banner">
+                <img src="./assets/images/product-4.jpg" alt="New Balance 574" width="312" height="350">
+                <div class="card-actions">
+                  <button class="card-action-btn" aria-label="Add to Wishlist">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                  <button class="card-action-btn" aria-label="Add to Cart">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </button>
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">New Balance 574</h3>
+                <data class="card-price" value="99.99">$99.99</data>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card">
+              <figure class="card-banner">
+                <img src="./assets/images/product-5.jpg" alt="Converse Chuck 70" width="312" height="350">
+                <div class="card-actions">
+                  <button class="card-action-btn" aria-label="Add to Wishlist">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                  <button class="card-action-btn" aria-label="Add to Cart">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </button>
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Converse Chuck 70</h3>
+                <data class="card-price" value="79.99">$79.99</data>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card">
+              <figure class="card-banner">
+                <img src="./assets/images/product-6.jpg" alt="Vans Old Skool" width="312" height="350">
+                <div class="card-actions">
+                  <button class="card-action-btn" aria-label="Add to Wishlist">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                  <button class="card-action-btn" aria-label="Add to Cart">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </button>
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Vans Old Skool</h3>
+                <data class="card-price" value="69.99">$69.99</data>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card">
+              <figure class="card-banner">
+                <img src="./assets/images/product-7.jpg" alt="Reebok Classic" width="312" height="350">
+                <div class="card-actions">
+                  <button class="card-action-btn" aria-label="Add to Wishlist">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                  <button class="card-action-btn" aria-label="Add to Cart">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </button>
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Reebok Classic</h3>
+                <data class="card-price" value="89.99">$89.99</data>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card">
+              <figure class="card-banner">
+                <img src="./assets/images/product-8.jpg" alt="Asics Gel-Lyte" width="312" height="350">
+                <div class="card-actions">
+                  <button class="card-action-btn" aria-label="Add to Wishlist">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                  <button class="card-action-btn" aria-label="Add to Cart">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </button>
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Asics Gel-Lyte</h3>
+                <data class="card-price" value="119.99">$119.99</data>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+          </a>
+          <p class="footer-text">
+            Find your perfect footwear at Footcap. Quality shoes for every occasion.
+          </p>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-list">
+          <h3 class="h4 footer-list-title">Quick Links</h3>
+          <ul>
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#" class="footer-link">Products</a></li>
+            <li><a href="#" class="footer-link">Shop</a></li>
+            <li><a href="#" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-list">
+          <h3 class="h4 footer-list-title">Customer Service</h3>
+          <ul>
+            <li><a href="#" class="footer-link">My Account</a></li>
+            <li><a href="#" class="footer-link">Order Tracking</a></li>
+            <li><a href="#" class="footer-link">Wishlist</a></li>
+            <li><a href="#" class="footer-link">Returns & Exchanges</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-list">
+          <h3 class="h4 footer-list-title">Contact Info</h3>
+          <ul>
+            <li>
+              <ion-icon name="location-outline"></ion-icon>
+              <span>123 Shoe Street, Fashion City, FC 12345</span>
+            </li>
+            <li>
+              <ion-icon name="call-outline"></ion-icon>
+              <span>+1 (234) 567-8900</span>
+            </li>
+            <li>
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>info@footcap.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2024 Footcap. All rights reserved.
+        </p>
+        <ul class="footer-bottom-list">
+          <li><a href="#" class="footer-bottom-link">Privacy Policy</a></li>
+          <li><a href="#" class="footer-bottom-link">Terms & Conditions</a></li>
+          <li><a href="#" class="footer-bottom-link">Shipping Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
